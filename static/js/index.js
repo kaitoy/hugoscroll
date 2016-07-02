@@ -33,13 +33,6 @@ var $post = $('.post'),
 
         })
 
-
-        $('.btn.first').click( function () {
-        	srcTo ($first)
-        })
-        $('.btn.last').click( function () {
-        	srcTo ($last)
-        })
         $('#header-arrow').click(function () {
             srcTo ($first)
         })
@@ -97,5 +90,22 @@ var $post = $('.post'),
         $('ul li').before('<span class="bult fa fa-asterisk icon-asterisk"></span>')
         $('blockquote p').prepend('<span class="quo icon-quote-left"></span>')
                 .append('<span class="quo icon-quote-right"></span>')
+
+        $postholder.css('visibility','hidden');
+        $(window).on('load scroll', function(e) {
+          var windowHeight = $(window).height();
+          var topWindow = $(window).scrollTop();
+          $postholder.each(function() {
+            var targetPosition = $(this).offset().top;
+            if (topWindow > targetPosition - windowHeight + 100) {
+              if (e.type === 'load') {
+                $(this).css('visibility','visible');
+              }
+              else if ($(this).css('visibility') === 'hidden') {
+                $(this).addClass('fadeInUp');
+              }
+            }
+          });
+        });
     });
 }(jQuery));
