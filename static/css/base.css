@@ -2055,9 +2055,9 @@ ul li {
   background: #0099cc no-repeat center center;
   background-size: cover; }
 
-#blog-logo img {
+#pcap4j-logo img {
   display: block;
-  max-height: 100px;
+  max-height: 250px;
   width: auto;
   margin: 0 auto;
   line-height: 0; }
@@ -2489,8 +2489,8 @@ a.fn-item.active {
   .post-holder {
     padding-top: 20px; }
 
-  #blog-logo img {
-    max-height: 80px; }
+  #pcap4j-logo img {
+    max-height: 180px; }
 
   .inner,
   .pagination {
