@@ -2153,6 +2153,16 @@ ul li {
 /* ==========================================================================
    5. Single Post - When you click on an individual post
    ========================================================================== */
+.post-number {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  background: #00aba9;
+  text-align: center;
+  line-height: 100px;
+  color: white; }
+
 .fadeInUp {
   -webkit-animation-fill-mode: both;
   -ms-animation-fill-mode: both;
