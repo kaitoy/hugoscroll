@@ -17,16 +17,9 @@ var $post = $('.post'),
 		}, 1000);
     }
     $(document).ready(function(){
-
-
-
         $postafter.each(function (e) {
         	var bg = $(this).parent().css('background-color')
         	$(this).css('border-top-color', bg)
-        })
-
-        $('#header-arrow').click(function () {
-            srcTo ($first)
         })
 
         $('.post-title').each(function () {
