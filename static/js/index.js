@@ -19,18 +19,11 @@ var $post = $('.post'),
     }
     $(document).ready(function(){
 
-        $postholder.each(function (e) {
-        	if(e % 2 != 0)
-        		$(this).addClass("oneOff")
-        })
+
 
         $postafter.each(function (e) {
         	var bg = $(this).parent().css('background-color')
         	$(this).css('border-top-color', bg)
-
-        	if(e % 2 == 0)
-        		$(this).css('left', '6%')
-
         })
 
         $('#header-arrow').click(function () {

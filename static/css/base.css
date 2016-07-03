@@ -2089,10 +2089,6 @@ ul li {
   background: #f2efe8;
   position: relative; }
 
-.oneOff {
-  background: #5BA4E5;
-  color: #fff; }
-
 /* Every post, on every page, gets this style on its <article> tag */
 .post {
   position: relative;
