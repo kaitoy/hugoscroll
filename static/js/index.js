@@ -1,23 +1,13 @@
 /**
  * Main JS file for HugoScroll behaviours
  */
-var $post = $('.post'),
-	$first = $('.post.first'),
-	$last = $('.post.last'),
-	$postholder = $('.post-holder'),
-	$sitehead = $('#site-head');
+var $post = $('.post');
 
 /*globals jQuery, document */
 (function ($) {
     "use strict";
 
     $(document).ready(function(){
-        $('.post-title').each(function () {
-        	var t = $(this).text(),
-        	    index = $(this).parents('.post-holder').index();
-        	$(this).parents('article').attr('id',t.toLowerCase().split(' ').join('-'));
-        })
-
         $('ul li').before('<span class="bult fa fa-asterisk icon-asterisk"></span>')
         $('blockquote p').prepend('<span class="quo icon-quote-left"></span>')
                 .append('<span class="quo icon-quote-right"></span>')
