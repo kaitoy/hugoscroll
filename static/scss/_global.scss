@@ -439,34 +439,8 @@ ul li {
 /* Add a little circle in the middle of the border-bottom on our .post
    just for the lolz and stylepoints. */
 
-.fixed-nav {
-    display: none;
-    opacity: 1;
-    position: fixed;
-    top: 40px;
-    left: 2%;
-    z-index: 99999;
-    font-family: $sans-font;
-    text-transform: uppercase;
-    font-size: 1.5rem;
-    line-height: 130%;
-    font-weight: bold;
-}
-a.fn-item {
-    display: block;
-    cursor: pointer;
-    opacity: 0.7;
-}
 .white {
     color: white;
-}
-a.fn-item:hover {
-    color: $link-color;
-}
-a.fn-item.active {
-    color: $hover-color;
-    opacity: 1;
-
 }
 
 .post-after {
