@@ -10,11 +10,7 @@ var $post = $('.post'),
 /*globals jQuery, document */
 (function ($) {
     "use strict";
-    function srcTo (e) {
-    	$('html, body').animate({
-			scrollTop: e.offset().top
-		}, 1000);
-    }
+
     $(document).ready(function(){
         $('.post-title').each(function () {
         	var t = $(this).text(),
