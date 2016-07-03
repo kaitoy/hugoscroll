@@ -2058,7 +2058,7 @@ ul li {
   font-size: 5rem;
   letter-spacing: -1px; }
 
-.blog-description {
+.description {
   margin: 0;
   font-size: 1.8rem;
   line-height: 1.5em;
@@ -2450,7 +2450,7 @@ ul li {
     font-size: 4rem;
     letter-spacing: -1px; }
 
-  .blog-description {
+  .description {
     font-size: 1.7rem;
     line-height: 1.5em; }
 
@@ -2509,7 +2509,7 @@ ul li {
   .blog-title {
     font-size: 3rem; }
 
-  .blog-description {
+  .description {
     font-size: 1.5rem; }
 
   h1, h2 {
