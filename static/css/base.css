@@ -2089,18 +2089,6 @@ ul li {
 .white {
   color: white; }
 
-.post-after {
-  position: absolute;
-  bottom: -40px;
-  right: 6%;
-  z-index: 1;
-  width: 0;
-  height: 0;
-  border-left: 60px solid transparent;
-  border-right: 60px solid transparent;
-  border-top: 50px solid #f2efe8;
-  border-radius: 25px; }
-
 .post-title {
   margin: 0; }
 
