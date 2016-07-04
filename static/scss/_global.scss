@@ -624,6 +624,13 @@ ul li {
     margin: 0 auto;
 }
 
+.post-content a {
+  text-decoration: none;
+  font-family: 'Roboto', $serif-font;
+  font-weight: bold;
+  background: linear-gradient(transparent 85%, rgba(#9fd067, 0.70) 0%);
+}
+
 /* ==========================================================================
    6. Third Party Elements - Embeds from other services
    ========================================================================== */

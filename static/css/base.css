@@ -2254,6 +2254,12 @@ ul li {
   max-width: 100%;
   margin: 0 auto; }
 
+.post-content a {
+  text-decoration: none;
+  font-family: "Roboto", "Times New Roman", serif;
+  font-weight: bold;
+  background: linear-gradient(transparent 85%, rgba(159, 208, 103, 0.7) 0%); }
+
 /* ==========================================================================
    6. Third Party Elements - Embeds from other services
    ========================================================================== */
