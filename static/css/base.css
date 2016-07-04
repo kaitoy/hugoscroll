@@ -1909,7 +1909,7 @@ mark {
 
 code, tt {
   padding: 3px 5px;
-  font-family: monospace, sans-serif;
+  font-family: 'Source Code Pro', monospace, sans-serif;
   font-size: 0.75em;
   /*white-space: pre;*/
   border: 1px solid #E3EDF3;
@@ -1923,7 +1923,6 @@ pre {
   margin: 1.6em 0;
   border: 1px solid #E3EDF3;
   width: 100%;
-  padding: 10px;
   font-family: monospace, sans-serif;
   font-size: 0.9em;
   white-space: pre;
@@ -1932,7 +1931,8 @@ pre {
   border-radius: 3px; }
 
 pre code, tt {
-  font-size: inherit;
+  font-size: 0.8em;
+  line-height: 1.5em;
   white-space: -moz-pre-wrap;
   white-space: pre-wrap;
   background: transparent;
